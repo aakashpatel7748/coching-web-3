@@ -1,0 +1,666 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    /* width: 100%; */
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1% 7%;
+}
+
+
+.logo{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+   
+    gap: 30px;
+}
+
+.logo > img{
+    width: 8%;
+    padding-bottom:17px ;
+    padding-right: 10px;
+}
+.logo > h3{
+    font-weight:300 ;
+}
+
+.nav{
+    /* width: 100%; */
+   display: flex;
+   /* align-items: center; */
+   gap: 10px;
+}
+
+
+.nav > .btn1{
+  padding: 5px 11px;
+  color: #01BFBD;
+  border-radius: 30px;  
+  border-color: #01BFBD;
+}
+.nav > .btn2{
+  padding: 3px 5px;
+   background-color: white;
+ border: none;
+}
+.nav > i{
+    display: none;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100%;
+    padding: 3% 9%;
+    background-image: url(banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.hero-content{
+    width: 100%;
+    height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-self: center;
+  gap: 15%;
+}
+
+.hero-left{
+   width: 50%;
+   
+}
+.left-top > h1{
+    /* padding-left: 18%; */
+    padding-top:15% ;
+    /* padding-bottom: %; */
+    font-size: 50px;
+    color: white;
+}
+
+.left-top > h3{
+    color: white;
+    padding: 8% 0;
+    font-size: 20px;
+    font-weight: 500;
+   text-decoration-line: underline  ;
+   
+   
+}
+
+.left-top > h3 > span{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.left-bottom{
+    width: 100%;
+    display: flex;
+    /* padding: 9% 19%; */
+}
+.left-bottom > img{
+    width: 20%;
+    /* padding-right: 4%; */
+}
+
+.left-bottom > p{
+    padding: 2% 3%;
+    color: white;
+}
+
+.hero-right{
+    width: 35%;
+     text-align: center;
+    background-color: white;
+    padding: 3% 2%;
+}
+.hero-right > img{
+    width: 15%;
+  /* margin-left: 40%; */
+    
+}
+.hero-right > h2{
+   font-size: 25px;
+   padding: 1rem 0;
+   text-align: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 9% 0;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+form > h2{
+    font-size: 14px;
+    color: #01BFBD;
+    font-weight: 900;
+}
+
+.text-btn > h1{
+    font-size: 13px;
+    color: #01BFBD;
+    font-weight: 800;
+}
+
+.form-btn{
+    padding: 10px 30px;
+    background-color: #01BFBD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* ====================section 2==========*/
+
+.section2{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 1% 9%;
+}
+.sec2-con1{
+    margin: 4% 0;
+    
+}
+
+.sec2-hading > h1{
+    padding: 2% 0;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 300;
+}
+.sec2-hading > p{
+    padding: 1% 15%;
+   text-align: center;
+   font-size: 19px;
+   font-weight: 50;
+   line-height: 1.5;
+}
+
+.sec2-con1{
+    display: flex;
+    padding: 5% 0;
+    gap: 20px;
+}
+.sec2-text >h3{
+     font-size: 25px;
+     font-weight: 200;
+     padding: 2% 0;
+}
+.sec2-text >p{
+    padding-top: 1% ;
+    padding-right: 15%;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.sec2-con2{
+    display: flex;
+    gap: 15%;
+}
+
+.sec2-hading2 > h3{
+    font-size: 25px;
+    font-weight: 200;
+    padding: 2% 0;
+}
+.sec2-hading2 > p{
+    /* padding-top: 1% ; */
+    /* padding-right: 15%; */
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+/* ============section============ */
+
+.section3{
+    padding: 1% 9%;
+
+}
+.section3> h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.section3-box{
+   display: flex;
+    gap: 20px; 
+    padding: 5% 0;
+}
+.box{
+    width: 100% ;
+    height: 175px;
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.box > h2{
+    font-size: 15px;
+    padding: 17% 0;
+}
+.box > img{
+    width: 60%;
+     
+}
+.box5{
+    width: 100%;
+    
+}
+
+.box :hover{
+  width: 100%;
+    height: 170px;
+    transition: 2s;
+    
+    /* transform: 3s; */
+}
+
+.section4{
+    width: 100%;
+    background-color: #FFFBED;
+    text-align: center;
+    padding: 0 9%;
+}
+.section4 > h1{
+    font-size: 40px ;
+    font-weight: 100;
+    padding: 3% 0;
+}
+.section4-con1{
+    width: 100%;
+    padding: 3% 0;
+    display: flex;
+    gap: 30px;
+}
+.section4-text1> img{
+    width: 20%;
+    
+}
+.section4-text1> h3{
+    padding: 2% 0;
+    
+}
+.section4-text1> p{
+    padding: 0 15%;
+    
+}
+.section4-text2> img{
+    width: 20%;
+}
+.section4-text2> h3{
+    padding: 2% 0;
+    
+}
+.section4-text2> p{
+    padding: 0 15%;
+    
+}
+
+/* -=================section5============ */
+
+.section5{
+    padding: 2% 9%;
+    
+}
+.section5 > h1{
+    text-align: center;
+    padding: 2% 0;
+}
+.sec5-main{
+    display: flex;
+    /* gap: 20px; */
+     align-items: center;
+     justify-content: center;
+}
+.sec5-left-text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.text1 {
+    width:250px ;
+    height: 100px;
+    background-color: #F8FAF7;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 4%;
+}
+.text1 > img{
+    width: 25%;
+}
+
+/* =================section6============== */
+
+.section6{
+    padding: 1% 9%;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.section6 > h1{
+    padding: 1% 0;
+   text-align: center;
+   align-items: center;
+   font-weight: 500;
+   font-size: 35px;
+}
+.section6 >p{
+    padding: 2% 20%;
+}
+
+/* ==================footer============= */
+
+ footer{
+    width: 100%;
+    margin-top: 5%;
+    color: black;
+    padding-left: 9%;
+    display: flex;
+    gap: 60px;
+   background-color: #0B4342;
+   color: white;
+ }
+
+.foo1-box > img{
+    width: 30%;
+    border-bottom: 1px solid rgb(155, 149, 149);
+    padding-bottom: 8% ;
+}
+
+.foo-icon{
+    display: flex;
+    gap: 10px;
+}
+.foo-icon > i{
+    font-size: 30px;
+    padding: 5% 0;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding: 15% 0;
+}
+.email > a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 0;
+}
+
+.foo1-b0x > h2{
+    padding: 15px 0;
+}
+.foo1-b0x > p{
+    padding: 5px 0;
+    font-weight: 200;
+}
+
+/* =====================responsive============x*/
+@media (max-width:600px){
+    body{
+        width: 180vh;
+        height: auto;
+        /* padding: 2% 15%; */
+        overflow-x: hidden;
+    }
+    header{
+        /* width: 100%; */
+        padding: 3% 5%;
+        display: flex;
+        align-items: center;
+    }
+
+     .logo > h3 {
+        display: none;
+
+    }
+    .logo > img{
+        width: 60%;
+    }
+    .nav > button{
+        display: none;
+    }
+    .nav > i{
+         display: block;
+       color: black;
+       font-size: 60px;
+       font-weight: 500;
+    }
+
+    /* ================hero-section================ */
+    .hero-section{
+        width: 100%;
+    }
+    
+    
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .left-top > h1{
+        font-size: 50px;
+        
+    }
+    .left-bottom{
+        display: none;
+    }
+    .hero-right{
+        width: 100%;
+        
+    }
+    .hero-right > h2{
+        font-size: 40px;
+        
+    }
+    form > input{
+        font-size: 24px;
+    }
+    .text-btn > h1{
+        font-size: 25px;
+    }
+    .form-btn{
+        font-size: 34px;
+        font-weight: 500;
+        color: white;
+       padding: 3% 15%;
+    }
+
+    /* ====================section2========== */
+
+    .sec2-hading > h1{
+        font-size: 50px;
+    }
+    .sec2-hading > p{
+        font-size: 23px;
+       color: rgb(146, 143, 143);
+    }
+
+    .sec2-con1{
+        text-align: center ;
+        display: flex;
+        flex-direction: column-reverse;
+ 
+    }
+    
+    .sec2-img > img{
+        width: 100%;
+    }
+    .sec2-text > h3{
+        font-size: 50px;
+    }
+    .sec2-text > p{
+       padding: 3%;
+        font-size: 20px;
+        color: rgb(146, 143, 143);
+    }
+    .sec2-con2{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2-img2 >img{
+        width: 100%;
+    }
+    .sec2-hading2 > h3{
+        font-size: 50px;
+    }
+    .sec2-hading2 > p{
+        padding: 3%;
+        font-size: 20px;
+        color: rgb(146, 143, 143);
+    }
+
+/* =====================section3========== */
+  .section3 > h1{
+    font-size: 70px;
+    
+  }
+  .section3-box{
+    width: 100%;
+    height: auto;
+  
+  }
+  .box{
+    width: 400px;
+   
+  }
+
+  /* ===============section4============= */
+  .section4 > h1{
+    font-size: 70px;
+    
+  }
+  .section4-con1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4-text1 > h3{
+    font-size: 45px;
+  }
+  .section4-text1 > p{
+    font-size: 35px;
+    color: rgb(146, 143, 143);
+    padding-bottom: 10%;
+  }
+
+  .section4-text2 >h3{
+    font-size: 45px;
+  }
+  .section4-text2 >p{
+    font-size: 35px;
+    color: rgb(146, 143, 143);
+    padding-bottom: 10%;
+  }
+
+  /* ====================section5========== */
+
+  .section5 > h1{
+    font-size: 80px;
+    font-weight: 500;
+  }
+  .sec5-main{
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+   
+    /* text-align: center; */
+    gap: 20px;
+    
+  }
+  .text1{
+    /* padding: 5% 20%; */
+    width: 700px;
+    height: 190px;
+    
+  }
+  .text1 > p{
+      font-size: 25px;
+      color: rgb(110, 107, 107);
+  }
+
+  /* ==============section6============= */
+
+  .section6 > h1{
+    font-size: 60px;
+  }
+  .section6 > p{
+    font-size: 30px;
+  }
+  .section6 > a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 3% 0;
+  }
+
+  /* ===================footer=========== */
+
+  .foo1-b0x{
+    display: none;
+  }
+  footer{
+    width: 100%;
+    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .foo1-box >img{
+    width: 40%;
+    
+  }
+
+  .foo-icon > i{
+    font-size: 50px;
+  }
+  .foo1-box > h1{
+    font-size: 50px;
+  }
+  .foo1-box >p{
+    font-size: 30px;
+    padding: 2% 0;
+  }
+
+  .email > a{
+    font-size: 30px;
+    padding: 1% 0;
+  }
+
+
+
+
+}
